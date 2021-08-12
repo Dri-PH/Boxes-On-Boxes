@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(128, 16, 16), black);
+}
+.sheet{
+    width: 580px;
+    height: 720px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#blue{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(27, 27, 27);
+}
+#red{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(148, 87, 87);
+}
+#orange{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(182, 153, 115);
+}
+#yellow{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(221, 221, 159);
+}
+#white{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 253, 238);
+}
+@media (max-width:600px){
+    #white{
+        width: 5px;
+        height: 5px;
+    }
+    #red{
+        width: 5px;
+        height: 5px;
+    }
+    #yellow{
+        width: 5px;
+        height: 5px;
+    }
+    #orange{
+        width: 5px;
+        height: 5px;
+    }
+    #blue{
+        width: 5px;
+        height: 5px;
+    }
+    section{
+        width: 15px;
+        height: 15px;
+    }
+    .sheet{
+        width: 290px;
+        height: 360px;
+    }
+}
